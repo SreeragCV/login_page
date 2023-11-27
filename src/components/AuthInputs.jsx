@@ -31,7 +31,7 @@ export default function AuthInputs() {
   const passwordNotValid = submitted && enteredPassword.trim().length < 6;
 
   return (
-    <div id="auth-inputs">
+    <div id="auth-inputs ">
       <ControlledContainer>
         <CustomInput
           label="Email"
@@ -52,7 +52,7 @@ export default function AuthInputs() {
         <button type="button" className="text-button">
           Create a new account
         </button>
-        <Button onClick={handleLogin}>Sign In</Button>
+      <Button onClick={handleLogin}>Sign In</Button>
       </div>
     </div>
   );
